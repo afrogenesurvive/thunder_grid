@@ -1,0 +1,143 @@
+body {
+  background-image: url('../images/lavaeruption.jpg');
+  background-size: fill;
+}
+h1 h3{
+  text-align: center;
+  margin: auto;
+  color: red;
+}
+p ul li {
+  text-align: justify;;
+  color: orange;
+}
+#spacer {
+  height: 50px;
+}
+#reset {
+  border: 3px solid black;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  margin: 5% auto 2% auto;;
+  background-image: url('../images/stonewall.png');
+  background-size: cover;
+  /*text-align: left;*/
+  color: yellow;
+  display: inline-block;
+
+}
+.playerInfo {
+  border: 3px solid orange;
+  border-radius: 10px;
+  width: 170px;
+  height: 200px;
+  display: inline-block;
+  margin: 1% 7% 1% 7%;
+  vertical-align: top;
+  text-align: center;
+  background-image: url('../images/stonewall.png');
+  background-size: contain;
+  text-shadow: 1px 1px black;
+  color: yellow;
+  overflow: scroll;
+}
+
+.items {
+  border: 3px solid brown;
+  border-radius: 10px;
+  width: 150px;
+  height: 50px;
+  margin: 2% 5% 2% 5%;
+  vertical-align: bottom;
+  /*position: relative;*/
+}
+#boardFrame {
+  height: 600px;
+  width: 600px;
+  display: inline-block;
+}
+.vidBox {
+  position: absolute;
+  height: 900px;
+  width: 1500px;
+  z-index: -1;
+}
+video {
+  position: absolute;
+  height: 900px;
+  width: 1500px;
+  z-index: -1;
+  display: inline-block;
+  object-fit: fill;
+}
+.gridSquare {
+  border-radius: 10px;
+  vertical-align: top;
+  display: inline-block;
+  margin: 2%;
+  height: 12.5%;
+  width: 12.5%;
+  background-image: url('../images/floatingrock.png');
+  background-position: center;
+}
+.cliff {
+  border: 3px dashed red;
+}
+/*img {
+  width: 50px;
+  height: 50px;
+  margin: 15%;
+}*/
+
+#popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.99);
+  z-index: 1;
+}
+.instructions {
+  position: absolute;
+  top: 25%;
+  right: 1%;
+  background-image: url('../images/controllerMap.png');
+  background-size: cover;
+  height: 300px;
+  width: 700px;
+  /*margin: 5% auto;*/
+  float: right;
+}
+#size9{
+  background-image: url('../images/stonewall.png');
+
+  border-radius: 10px;
+  height: 30px;
+  width: 150px;
+  transform: translate(-50%, -50%);
+  margin: 2% 10%;
+  display: inline-block;
+  padding: 1%;
+  color: orange;
+}
+#size36{
+  background-image: url('../images/stonewall.png');
+  border-radius: 10px;
+  height: 30px;
+  width: 150px;
+  transform: translate(-50%, -50%);
+  margin: 2% 10%;
+  display: inline-block;
+  padding: 1%;
+  color: orange;
+}
+
+.instructions2 {
+  text-align: left;
+  /*list-style-type: none;*/
+}
+.instructions2 > li {
+    margin: 1% 0%;
+  }
